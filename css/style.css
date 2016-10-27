@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+body {
+    background: rgb(71, 133, 106);
+}
+
+@font-face {
+    font-family: Babas;
+    src: url('../fonts/BebasNeue Regular.otf');
+}
+
+.animation {
+    text-decoration: none;
+    -webkit-trasition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -o-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+    transition: all.6s ease;
+}
+
+#wrapper {
+    text-align: center;
+    margin: 15vh auto;
+    /*width: 28%;*/
+}
+
+#title {
+    font-family: Babas;
+    font-size: 8em;
+    color: #57d075;
+}
+
+#formBlock {
+    width: 30%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.fieldsLabel {
+    font-family: "pragmatica-web", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+    /*width: 100%;*/
+    /*text-align: left;*/
+    color: rgba(247, 247, 247, 0.72);
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.field {
+    font-family: "pragmatica-web", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+    outline: none;
+    /*float: left;*/
+    width: 405px;
+    height: 30px;
+    /*width: 96%;*/
+    /*padding: 2%;*/
+    border-radius: 7px;
+    border: 1px solid rgba(167, 226, 189, .0);
+    background: rgba(167, 226, 189, 0.3);
+    margin-bottom: 10px;
+}
+
+.field:focus {
+    border-bottom: 1px solid #57d075;
+    background: rgba(167, 226, 189, 0.5);
+}
+
+.button {
+    text-transform: uppercase;
+    background: rgba(167, 226, 189, 0.3);
+    border-top: 2px solid rgba(167, 226, 189, 0);
+    border-left: 2px solid rgba(167, 226, 189, 0);
+    border-right: 2px solid rgba(167, 226, 189, 0);
+    border-bottom: 2px solid #57d075;
+    outline: none;
+    width: 190px;
+    height: 30px;
+    /*margin-right: 20px;*/
+    /*float: right;*/
+    color: rgba(247, 247, 247, 0.72);
+    border-radius: 5px;
+}
+
+.button:hover {
+    background: rgba(243, 228, 227, 0.35);
+    cursor: pointer;
+}
+
+#log {
+    float: left;
+}
+
+#sin {
+    float: right;
+}
